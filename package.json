@@ -1,7 +1,9 @@
 {
-  "name": "create-hardhat",
-  "version": "0.0.1",
-  "description": "hardhat boilerplate",
+  "name": "mev-assist",
+  "version": "0.1.0",
+  "description": "MEV Solidity library",
+  "directories": {
+    "test": "test"
   "files": [
     "/contracts/**/*.sol",
     "/build/contracts/*.json",
@@ -20,9 +22,13 @@
     "smart-contracts",
     "solidity"
   ],
-  "author": "",
-  "license": "MIT",
-  "devDependencies": {
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sambacha/mev-assist-contracts.git"
+  },
+  "author": "SEE CONTRIBUTORS",
+  "license": "SEE LICENSE IN LICENSE",
+    "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.1",
     "@nomiclabs/hardhat-etherscan": "^2.1.1",
     "@nomiclabs/hardhat-solhint": "^2.0.0",
@@ -50,6 +56,9 @@
     "typescript": "^4.1.2"
   },
   "dependencies": {
-    "@openzeppelin/contracts": "^3.3.0"
   }
+  "bugs": {
+    "url": "https://github.com/sambacha/mev-assist-contracts/issues"
+  },
+  "homepage": "https://github.com/sambacha/mev-assist-contracts#readme"
 }
